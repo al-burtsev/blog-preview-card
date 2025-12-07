@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>blog-preview-card</title>
+  <link rel="stylesheet" href="/src/style.css">
+</head>
+
+<body>
+  <main class="min-h-svh flex justify-center items-center bg-yellow">
+    <section>
+      <div class="container px-6">
+        <h1 class="sr-only">Blog preview card</h1>
+        <div class="w-full max-w-(--card-width) p-(--card-padding) bg-white border border-black rounded-[20px] font-figtree shadow-(--card-shadow)">
+          <img class="h-50 rounded-[10px] mb-6 object-cover" src="/src/assets/images/illustration-article.svg" alt="card image">
+
+          <div>
+            <div>
+              <span class="inline-block mb-3 py-1 px-3 bg-yellow font-extrabold text-xs md:text-sm leading-normal rounded-sm">Learning</span>
+              <p class="mb-3 font-medium text-xs md:text-sm leading-normal">
+                Published <time datetime="2023-12-21">21 Dec 2023</time>
+              </p>
+            </div>
+
+            <h2 class="mb-3 text-gray-950 font-extrabold font-figtree text-xl md:text-2xl leading-normal"><a href="#!" class="inline-flex focus:outline-yellow-600 outline-offset-4 hover:outline-0 hover:text-yellow transition-colors">HTML & CSS foundations</a></h2>
+            <p class="mb-6 text-gray-500 text-sm md:text-base leading-normal">
+              These languages are the backbone of every website, defining structure, content, and presentation.
+            </p>
+          </div>
+
+          <div class="flex items-center gap-3">
+            <img class="size-8" width="32" height="32" src="/src/assets/images/image-avatar.webp" alt="author's photo">
+            <div class="text-gray-950 font-extrabold text-sm">Greg Hooper</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>
