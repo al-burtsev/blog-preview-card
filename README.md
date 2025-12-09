@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 - [Solution URL](https://github.com/al-burtsev/blog-preview-card)
-- [Live Site URL](https://your-live-site-url.com)
+- [Live Site URL](https://al-burtsev.github.io/blog-preview-card/))
 
 ## My process
 
